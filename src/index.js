@@ -1,12 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./Components/Home";
+import Book from "./components/BookList";
+
+import "./assets/css/styles.css";
 
 const App = () => {
   return (
-    <>
-      <Home />
-    </>
+    <div className="bookList">
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </div>
   );
 };
 
